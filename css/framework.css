@@ -17,12 +17,26 @@
 /* End Component */
 
 /* Start Box */
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
 .d-flex {
     display: flex;
 }
 
 .align-center {
     align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
 }
 
 /* End Box */
@@ -80,6 +94,12 @@
     font-size: 14px;
 }
 
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+
 /* End Font *
 
 /* Start Border */
@@ -89,6 +109,14 @@
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 /* End Border */

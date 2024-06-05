@@ -211,7 +211,7 @@ ul {
 
 /* Start Head */
 
-/* Start Page */
+/* Start Page_1 */
 
 .page h1 {
     margin: 20px 20px 40px;
@@ -236,6 +236,25 @@ ul {
     width: 40px;
 }
 
-/* End Page */
+.wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+}
+
+/* Start Welcome Part */
+
+/* End Welcome Part */
+
+/* End Page_1 */
 
 /* End Content */
